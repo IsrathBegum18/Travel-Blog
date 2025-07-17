@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Travel Blog</title>
+  <style>
+    body {
+      background-image: url('https://m.media-amazon.com/images/I/51p2SzIv5EL._UF1000,1000_QL80_.jpg');
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      display: flex;
+      margin: 0;
+      padding: 0;
+    }
+
+    main {
+      flex: 3;
+      padding: 30px;
+    }
+
+    aside {
+      flex: 1;
+      background-image: url('https://s.widget-club.com/images/YyiR86zpwIMIfrCZoSs4ulVD9RF3/9fd9a0feda3d58c377f53a43e32cb365/c1e2815dd533266375b880ab870f3eb4.jpg?q=70&w=500');
+      padding: 40px;
+      border-left: 1px solid #81485e;
+      color: #fff;
+    }
+
+    header, footer {
+      width: auto;
+      text-align: center;
+      padding: 10px;
+      background-color: mediumpurple;
+      color: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    section {
+      margin-bottom: 10px;
+    }
+
+    article {
+      background-color: rgba(83, 155, 165, 0.9);
+      padding: 15px;
+      margin-bottom: 20px;
+      border-radius: 30px;
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    article:hover {
+      transform: scale(1.03);
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 30px;
+      background-color: rgba(255, 255, 255, 0.9);
+    }
+
+    table, th, td {
+      border: 1px solid #be7272;
+    }
+
+    th, td {
+      padding: 8px;
+      text-align: left;
+    }
+
+    tr:hover {
+      background-color: #fce4ec;
+    }
+
+    img {
+      max-width: 100%;
+      border-radius: 30px;
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    img:hover {
+      transform: scale(1.02);
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+    }
+
+    ul {
+      padding-left: 30px;
+    }
+
+    a {
+      text-decoration: none;
+      color: #fff;
+      transition: color 0.3s;
+    }
+
+    a:hover {
+      color: #ffd700;
+      font-weight: bold;
+    }
+
+    footer {
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <marquee behavior="scroll" direction="left" scrollamount="10" onmouseover="this.stop();" onmouseout="this.start();">
+        <h1 style="display:inline; color: white;">🌍 The World Travel Guy ✈️</h1>
+      </marquee>
+      <p>Travel makes one modest. You see what a tiny place you occupy in the world.</p>
+    </header><br><br>
+
+    <section>
+      <article>
+        <h2>Top 3 Travel Destinations</h2>
+        <ul>
+          <li>Pink Sands Beach in the Bahamas</li>
+          <li>Zhangye National Geopark in China</li>
+          <li>Cappadocia in Turkey</li>
+        </ul>
+      </article>
+
+      <article>
+        <h2>Destination Highlight: Pink Sands Beach in the Bahamas</h2>
+        <img src="https://afar.brightspotcdn.com/dims4/default/0147c6c/2147483647/strip/true/crop/1900x1267+0+0/resize/900x600!/format/webp/quality/90/?url=https%3A%2F%2Fk3-prod-afar-media.s3.us-west-2.amazonaws.com%2Fbrightspot%2F32%2F01%2F6e818639b43dcb7cdc7334b0f2ff%2Foriginal-lede-elafonsisi-georgios-20tsichlis-shutterstock-707246239.jpg" alt="pink beach">
+        <p>The beach's most distinctive feature is its pink sand, which gets its color from the crushed shells of Foraminifera. </p>
+      </article>
+
+      <article>
+        <h2>Cost Comparison Table</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Destination</th>
+              <th>Avg Daily Cost (USD)</th>
+              <th>Best Travel Month</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Pink Sands Beach</td>
+              <td>$140</td>
+              <td>Mid-April</td>
+            </tr>
+            <tr>
+              <td>Zhangye National Geopark</td>
+              <td>$200</td>
+              <td>September</td>
+            </tr>
+            <tr>
+              <td>Cappadocia</td>
+              <td>$300</td>
+              <td>May</td>
+            </tr>
+          </tbody>
+        </table>
+      </article>
+    </section>
+
+    <footer>
+      <p>&copy; 2025 The World Travel Guy. All rights reserved.</p>
+    </footer>
+  </main>
+
+  <aside>
+    <h3>Travel Tip 💡</h3>
+    <p>Always keep digital and physical copies of your passport when traveling abroad.</p>
+
+    <h3>Quick Links</h3>
+    <ul>
+      <li><a href="https://www.visahq.in/">Visa Requirements</a></li>
+      <li><a href="https://www.booking.com/country.html">Room Booking</a></li>
+      <li><a href="https://www.icicilombard.com/travel-insurance/gold-multi-trip">Travel Insurance</a></li>
+    </ul>
+  </aside>
+</body>
+</html>
